@@ -1,0 +1,34 @@
+!table
+!version 300
+!charset WindowsKorean
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 3
+    Area_Name Char (100) Index 1 ;
+    Area_Region Char (30) ;
+    Area_Code Char (30) ;
+ReadOnly
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\DefaultStyles" = ""
+"\DefaultStyles\Symbol" = ""
+"\DefaultStyles\Symbol\Type" = "0"
+"\DefaultStyles\Symbol\Pointsize" = "12"
+"\DefaultStyles\Symbol\Color" = "0"
+"\DefaultStyles\Symbol\Code" = "35"
+"\DefaultStyles\LinePen" = ""
+"\DefaultStyles\LinePen\LineWidth" = "1"
+"\DefaultStyles\LinePen\LineStyle" = "0"
+"\DefaultStyles\LinePen\Color" = "0"
+"\DefaultStyles\LinePen\Pattern" = "2"
+"\DefaultStyles\Pen" = ""
+"\DefaultStyles\Pen\LineWidth" = "3"
+"\DefaultStyles\Pen\LineStyle" = "0"
+"\DefaultStyles\Pen\Color" = "0"
+"\DefaultStyles\Pen\Pattern" = "2"
+"\DefaultStyles\Brush" = ""
+"\DefaultStyles\Brush\Pattern" = "3"
+"\DefaultStyles\Brush\Forecolor" = "12632256"
+"\DefaultStyles\Brush\Backcolor" = "16777215"
+end_metadata

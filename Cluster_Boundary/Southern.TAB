@@ -1,0 +1,10 @@
+!table
+!version 300
+!charset WindowsKorean
+
+Definition Table
+  Type NATIVE Charset "WindowsKorean"
+  Fields 3
+    Area_Name Char (41) Index 1 ;
+    Area_Region Char (8) ;
+    Area_Code Char (9) ;

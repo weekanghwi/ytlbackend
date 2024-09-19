@@ -1,0 +1,27 @@
+!table
+!version 300
+!charset WindowsKorean
+
+Definition Table
+  Type NATIVE Charset "WindowsKorean"
+  Fields 15
+    GM_LAYER Char (254) ;
+    Area_Name Char (41) Index 1 ;
+    Phase Char (10) ;
+    Area_State Char (15) ;
+    Area_Region Char (8) ;
+    Area_Remarks Char (9) ;
+    Area_MainTrunkRd Char (6) ;
+    NAME Char (41) ;
+    LAYER Char (21) ;
+    Rollout_Phase Char (7) ;
+    Area_Code Char (9) ;
+    Area_Size Float ;
+    gx_balloonVisibility Integer ;
+    KML_STYLE Char (10) ;
+    KML_FOLDER Char (25) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "0ac2eb3f-c108-4e6d-a232-f7442858880a"
+end_metadata

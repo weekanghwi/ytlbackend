@@ -1,0 +1,16 @@
+!table
+!version 300
+!charset WindowsKorean
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 3
+    Area_Name Char (16) Index 1 ;
+    Area_Region Char (7) ;
+    Area_Code Char (20) ;
+ReadOnly
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "242bf941-eb0c-43ae-bb3f-8ef3c65e9608"
+end_metadata
